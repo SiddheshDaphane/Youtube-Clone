@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidbar.css">
+
+  </head>
+
+  <body>
+
+    <header class="header">
+
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- This is the comment-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        
+        <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        
+        <img class="current-user-pic" src="Intro_to_HTML/channel_pics/why_do_we_fall.jpeg">
+      </div>
+    </header>
+
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="">
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="">
+        <div>Library</div>
+      </div>
+    </nav>
+    
+    
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumb" src="Thumbnail/oppenheimer-1.webp">
+  
+            <div class="video-time">12:20</div>
+          </div>
+  
+          
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="Intro_to_HTML/channel_pics/channels4_profile.jpg">
+            </div>
+    
+            <div class="video-info">
+    
+              <p class="video-title">
+              Oppenheimer - Concentration Music (Extended)
+              </p>
+      
+              <p class="video-author">
+              Marc Lanterns
+              </p>
+      
+              <p class="video-stat">
+              551k views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+          
+    
+    
+    
+    
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-andrew">
+            <img class="thumb-andrew" src="Thumbnail/hq720.webp">
+  
+            <div class="video-time">15:12</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic-andrew">
+              <img class="profile-pic-andrew" src="Intro_to_HTML/channel_pics/Andrew_profile.jpeg">
+            </div>
+    
+    
+            <div class="video-info-andrew">
+    
+              <p class="video-title-andrew">
+                How to Focus to Change Your Brain
+              </p>
+          
+              <p class="video-author-andrew">
+                Andrew Huberman
+              </p>
+          
+              <p class="video-stat-andrew">
+                2.2M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+    
+    
+    
+    
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumb" src="Thumbnail/miyamoto.webp">
+            <div class="video-time">8:15</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="Intro_to_HTML/channel_pics/miyamoto.jpeg">
+            </div>
+    
+            <div class="video-info">
+    
+              <p class="video-title">
+              The Power of the Loner
+              </p>
+      
+              <p class="video-author">
+              Miyamoto Musashi
+              </p>
+      
+              <p class="video-stat">
+              6M views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+          
+    
+    
+    
+    
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-andrew">
+            <img class="thumb-andrew" src="Thumbnail/maths.jpeg">
+  
+            <div class="video-time">16:21</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic-andrew">
+              <img class="profile-pic-andrew" src="Intro_to_HTML/channel_pics/is_math_invented.jpeg">
+            </div>
+    
+    
+            <div class="video-info-andrew">
+    
+              <p class="video-title-andrew">
+                Is Maths invented or discovered?
+              </p>
+          
+              <p class="video-author-andrew">
+                curious
+              </p>
+          
+              <p class="video-stat-andrew">
+                4.4M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+    
+    
+    
+    
+    
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumb" src="Thumbnail/why do we fall.jpeg">
+            <div class="video-time">10:37</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="Intro_to_HTML/channel_pics/why_do_we_fall.jpeg">
+            </div>
+    
+            <div class="video-info">
+    
+              <p class="video-title">
+              Hanz Zimmer Why do we fall
+              </p>
+      
+              <p class="video-author">
+              Hanz Zimmer
+              </p>
+      
+              <p class="video-stat">
+              9M views &#183; 4 years ago
+              </p>
+    
+            </div>
+          </div>
+        </div>
+          
+    
+    
+    
+    
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-andrew">
+            <img class="thumb-andrew" src="Thumbnail/universe.jpeg">
+            <div class="video-time">13:22</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic-andrew">
+              <img class="profile-pic-andrew" src="Intro_to_HTML/channel_pics/universe.jpeg">
+            </div>
+    
+    
+            <div class="video-info-andrew">
+    
+              <p class="video-title-andrew">
+                How to distroy the universe
+              </p>
+          
+              <p class="video-author-andrew">
+                Kurez gessatc
+              </p>
+          
+              <p class="video-stat-andrew">
+                12.2M views &#183; 1 years ago
+              </p>
+            </div>
+          </div>      
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
